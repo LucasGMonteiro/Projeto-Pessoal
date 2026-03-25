@@ -1,13 +1,32 @@
-body {
-    background-color: lightskyblue;
+@charset "UTF-8";
+
+* {
     font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #BDCBDB, #63DBCC); 
     font-size: 20px;
 }
 
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #575474;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
 h1 {
-    color: black;
+    color: #3b8396;
     text-decoration: underline;
     text-align: center;
+}
+
+h2 {
+    color: #172c38b0;
 }
 
 p {
